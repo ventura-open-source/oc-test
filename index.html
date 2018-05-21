@@ -1,9 +1,9 @@
 <html>
   <head></head>
   <body>
-    <!-- <oc-component href="//localhost:3030/hello-world/1.0.0/"></oc-component> -->
     <oc-component href="//localhost:3030/test"></oc-component>
     <oc-component href="//localhost:3030/hello-world"></oc-component>
+    <oc-component href="//localhost:3030/react?name=santi"></oc-component>
     <script>
       window.oc=window.oc||{};
       oc.conf=oc.conf||{};
@@ -23,6 +23,9 @@
             },
             {
               "type":"oc-template-es6","version":"1.0.1","externals":[]
+            },
+            {
+              "type":"oc-template-react","version":"2.0.9","externals":[]
             }
         ]);
     </script>

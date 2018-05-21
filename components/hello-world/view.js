@@ -1,11 +1,13 @@
 import styles from './css/styles.css';
 
 export default ({ name, staticPath }) =>
-  `<div class=${styles.awesome}>
+  `<div class=${styles.awesome} id="estees">
     Hello ${name}!
     <img src="${staticPath}img/logo.png" />
   </div>
   <script>
-    window.oc.events.fire('build', ['fola']);
+  document.getElementById('estees').addEventListener('click', function() {
+    window.oc.events.fire('build', ['new name!']);
+  });
   </script>
   `;
