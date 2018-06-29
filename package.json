@@ -1,0 +1,20 @@
+{
+  "name": "oc-test",
+  "version": "1.0.0",
+  "description": "We are gonna use this stack to show common components through diferents modules, for  example the Header, responsable of handling the authentication and permissions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scripts/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ventura-open-source/oc-test.git"
+  },
+  "author": "Jose Echavez <jose.echavez92@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ventura-open-source/oc-test/issues"
+  },
+  "homepage": "https://github.com/ventura-open-source/oc-test#readme"
+}

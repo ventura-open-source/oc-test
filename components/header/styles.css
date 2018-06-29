@@ -1,0 +1,42 @@
+/* Resets */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 48px;
+    background: palevioletred;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+ul li a {
+    color: white;
+    text-decoration: none; 
+}
+ul li a:visited {
+    color: yellow;
+}
+
+.themed-finance {
+    background: #8e44ad; 
+}
+
+.themed-hr {
+    background: #2980b9; 
+}
+
+.themed-marketing {
+    background: #34495e; 
+}
+
+.themed-product {
+    background: #27ae60; 
+}

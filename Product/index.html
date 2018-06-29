@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Product Ventura</title>
+  </head>
+  <body>
+    <oc-component href="//localhost:3030/header?project=product"></oc-component>
+    <div id="app">
+      {{ message }}
+    </div>
+    <!--<oc-component href="//localhost:3030/footer"></oc-component>-->
+    <script>
+      window.oc=window.oc||{};
+      oc.conf=oc.conf||{};
+      oc.conf.templates=(oc.conf.templates||[])
+        .concat([
+          {
+            "type":"oc-template-es6","version":"1.0.1","externals":[]
+          },
+          {
+            "type":"oc-template-jade",
+            "version":"6.0.12",
+            "externals":[{"global":"jade","url":"https://unpkg.com/jade-legacy@1.11.1/runtime.js","name":"jade"}]
+          },
+          {
+            "type":"oc-template-handlebars",
+            "version":"6.0.13","externals":[{"global":"Handlebars","url":"https://unpkg.com/handlebars@4.0.11/dist/handlebars.runtime.min.js","name":"handlebars"}]
+          },
+          {
+            "type":"oc-template-es6","version":"1.0.1","externals":[]
+          },
+          {
+            "type":"oc-template-react","version":"2.0.9","externals":[]
+          }
+        ]);
+    </script>
+    <script src="//localhost:3030/oc-client/client.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+       var app = new Vue({
+         el: '#app', 
+         data: {
+           message: "I'am product with vue"
+         }
+       });
+   </script>
+  </body>
+</html>
