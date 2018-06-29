@@ -19,24 +19,28 @@ ul li {
 }
 ul li a {
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
 }
 ul li a:visited {
     color: yellow;
 }
 
 .themed-finance {
-    background: #8e44ad; 
+    background: #8e44ad;
 }
 
 .themed-hr {
-    background: #2980b9; 
+    background: #2980b9;
 }
 
 .themed-marketing {
-    background: #34495e; 
+    background: #34495e;
 }
 
 .themed-product {
-    background: #27ae60; 
+    background: #27ae60;
+}
+
+ul li a.current-project {
+    color: rgb(81, 255, 0);
 }

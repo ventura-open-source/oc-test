@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <header className={styles[`themed-${project}`]}>
         <Logo></Logo>
-        <Modules></Modules>
+        <Modules currentProject={project}></Modules>
         <User></User>
       </header>
     )
